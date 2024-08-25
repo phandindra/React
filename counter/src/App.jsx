@@ -15,8 +15,10 @@ function App() {
 
   const removevalue=()=>{
    if(counter>0){
+
     setCounter(counter-1);
     console.log("clicked")
+    
    }
   }
 
