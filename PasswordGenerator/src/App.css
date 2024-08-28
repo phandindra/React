@@ -1,0 +1,67 @@
+/* App.css */
+
+/* General Container */
+.container {
+  width: 100%;
+  max-width: 768px; /* Equivalent to max-w-md */
+  margin: 0 auto;
+  padding: 16px;
+  background-color: #1f2937; /* Equivalent to bg-gray-800 */
+  color: #f97316; /* Equivalent to text-orange-500 */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-md */
+  border-radius: 8px; /* Equivalent to rounded-lg */
+}
+
+/* Header */
+.header {
+  color: #ffffff; /* Equivalent to text-white */
+  text-align: center;
+  margin: 16px 0; /* Equivalent to my-3 */
+  font-size: 24px; /* Adjust as needed */
+}
+
+/* Input Container */
+.input-container {
+  display: flex;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Equivalent to shadow */
+  border-radius: 8px; /* Equivalent to rounded-lg */
+  overflow: hidden;
+  margin-bottom: 16px; /* Equivalent to mb-4 */
+}
+
+/* Input Field */
+.input-field {
+  flex: 1;
+  padding: 8px 16px; /* Equivalent to py-1 px-3 */
+  border: none;
+  outline: none;
+}
+
+/* Button */
+.copy-button {
+  background-color: #3b82f6; /* Equivalent to bg-blue-700 */
+  color: #ffffff; /* Equivalent to text-white */
+  padding: 4px 12px; /* Equivalent to py-0.5 px-3 */
+  border: none;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* Range Slider Container */
+.range-container {
+  display: flex;
+  align-items: center;
+  font-size: 14px; /* Equivalent to text-sm */
+  gap: 8px; /* Equivalent to gap-x-2 */
+}
+
+/* Checkbox and Label */
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 4px; /* Equivalent to gap-x-1 */
+}
+
+.range-slider {
+  cursor: pointer;
+}
